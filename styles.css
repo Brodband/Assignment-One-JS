@@ -1,0 +1,63 @@
+/* Step 1 - Add a nice background */
+body {
+	background-color: #181817;
+}
+
+/* Step 2 - Add a nice card style */
+.card {
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  	background-color: #2B2B2B;
+  	border: 2px solid white;
+  	margin: 5px;
+  	height: 118.95px;
+  	width: 75px;
+  	border-radius: 8px;
+  	color: #2B2B2B;
+  	cursor: pointer;
+
+}
+	
+
+/* Step 3 - Add a nice hover effect */
+.card:hover {
+	box-shadow: 4px 4px 5px 0px #85BF25;
+}
+
+
+/* Step 4 (+4 points) - Write a style for a flipped card */
+.flipped {	
+	color: white;
+}
+
+/* Step 5 - Add a nice style to the message element */
+#message {
+	color: white;
+}
+
+/* Step 6 - Add 5 more style changes... */
+/* 1) */
+#score {
+	color: white;
+}
+/* 2) */
+.hide {
+	color: #2B2B2B;
+}
+/* 3) */
+.show {
+	color: white;
+}
+/* 4) */
+.button {
+    border: none;
+    background-color: #2B2B2B;
+    padding: 14px 28px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+/* 5) */
